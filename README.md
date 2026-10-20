@@ -202,7 +202,7 @@ they were.
 ```bash
 omarchy bar set glafeara.wireguard refreshIntervalSec 30
 omarchy bar set glafeara.wireguard pingHost ""     # no latency probe
-omarchy bar set glafeara.wireguard parallelTunnels true
+omarchy bar set glafeara.wireguard parallelTunnels true --json
 ```
 
 ## IPC
